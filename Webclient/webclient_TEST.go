@@ -7,6 +7,7 @@ import (
 	"log"
 	"net/http"
 	//"os"
+	//Påminnelse til senere: Importér pakken med API
 )
 
 // NOTE: denne må startes som en goroutine for hver URL/datakilde
