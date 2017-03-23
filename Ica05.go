@@ -51,3 +51,28 @@ func doGet(url string) {
 		}
 	}
 }
+func get(hdr) {
+hdr := response.Header
+}
+func exDecodeMine()  {
+	var jsonStream =
+"coord":{"lon":-122.08,"lat":37.39},
+"main":{"temp":277.14,"pressure":1025,"humidity":86,"temp_min":275.15,
+"temp_max":279.15}
+}
+
+type Coordinates struct {
+Lon float64
+Lat float64
+}
+type Measurements struct {
+Temp float64
+Pressure float64
+Humidity float64
+Temp_min float64
+Temp_max float64
+}
+type Weather struct {
+Coord Coordinates
+Main Measurements
+}
