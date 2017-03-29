@@ -35,6 +35,7 @@ func exDecodeMine() {
 	}
 	dec := json.NewDecoder(strings.NewReader(jsonStream))
 	for {
+		var w Weather
 		var m Message
 		if err := dec.Decode(&m); err == io.EOF {
 			break
