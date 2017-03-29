@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func exDecodeMine() {
+func ExDecodeMine() {
 	const jsonStream = `
 {
      "coord":{"lon":-122.08,"lat":37.39},
@@ -35,6 +35,7 @@ func exDecodeMine() {
 	}
 	dec := json.NewDecoder(strings.NewReader(jsonStream))
 	for {
+		var w Weather
 		var m Message
 		if err := dec.Decode(&m); err == io.EOF {
 			break
@@ -46,4 +47,8 @@ func exDecodeMine() {
 			w.Coord.Lon, w.Coord.Lat)
 		fmt.Printf("Temperature: %.f\n", w.Main.Temp)
 	}
+}
+
+func main() {
+	var url = "http://samples.openweathermap.org/data/2.5/weather?zip=94040,us&appid=b1b15e88fa797225412429c1c50c122a1"
 }
