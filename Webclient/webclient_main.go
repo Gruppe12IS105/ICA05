@@ -6,8 +6,8 @@ import "./API"
   Airforce: "https://api.usa.gov/jobs/search.json?query=jobs+at+the+va&organization_ids=AF"
   Nursing: "https://api.usa.gov/jobs/search.json?query=nursing+jobs"
 	Nursing in New York: "https://api.usa.gov/jobs/search.json?query=nursing+jobs+in+ny"
-	Statistikk over Laks i Norge = "https://data.ssb.no/api/v0/dataset/1120.json?lang=en"
-	Statistikk over Døddfall i Norge = "https://data.ssb.no/api/v0/dataset/1104.json?lang=en"
+	Statistikk over Laks i Norge: "https://data.ssb.no/api/v0/dataset/1120.json?lang=en"
+	Statistikk over Døddfall i Norge: "https://data.ssb.no/api/v0/dataset/1104.json?lang=en"
 
 */
 
