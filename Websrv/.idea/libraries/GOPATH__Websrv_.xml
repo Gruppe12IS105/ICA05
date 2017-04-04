@@ -1,0 +1,27 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;Websrv&gt;">
+    <CLASSES>
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/Webserver" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/github.com" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/ICA05" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/Uke4" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/ICA03" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/.idea" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/is105-ica03" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/ICA04" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/Webserver" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/github.com" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/ICA05" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/Uke4" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/ICA03" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/.idea" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/is105-ica03" />
+      <root url="file://$USER_HOME$/OneDrive - Universitetet i Agder/2. Semester/IS-105/Projects/Go/src/ICA04" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
