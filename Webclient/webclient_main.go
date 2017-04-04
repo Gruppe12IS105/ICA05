@@ -20,7 +20,7 @@ func main() {
 
 	/*
 		Alle go-rutinene venter 1 sek mellom hverandre for at ikke alle dataene
-		ble skrevet ut i hverandre (opplysninger fra DodStats kunne plutselig ligge
+		skal bli skrevet ut over hverandre (opplysninger fra DodStats kunne plutselig ligge
 		midt i opplysninger om LakseInfo)
 	*/
 	go API.USANursingJobs(urlNursing)
@@ -28,5 +28,4 @@ func main() {
 	go API.LakseInfo(urlLakseStats)
 	go API.GetDodStats(urlDodStats)
 	API.USAAirForceJobs(urlAirForce)
-
 }
