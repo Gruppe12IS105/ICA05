@@ -676,5 +676,5 @@ func convertJSON(importEksportJSON []byte) {
 	fmt.Printf("---%+v:---\n", i.Dataset.Dimension.Land.Label)
 	fmt.Printf("Land: %+v, Index: %+v\n", i.Dataset.Dimension.Land.Category.Label.AF, i.Dataset.Dimension.Land.Category.Index.AF)
 	fmt.Printf("Land: %+v, Index: %+v\n", i.Dataset.Dimension.Land.Category.Label.GB, i.Dataset.Dimension.Land.Category.Index.GB)
-	fmt.Println("----Import/Eksport----")
+	fmt.Println("----Import/Eksport Dyr----")
 }

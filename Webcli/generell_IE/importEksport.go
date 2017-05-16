@@ -629,7 +629,7 @@ type Vareeksport struct {
 	} `json:"dataset"`
 }
 
-func ImportEksport(urlImportEksport string) {
+func HentData(urlImportEksport string) {
 for {
 	respons, err := http.Get(urlImportEksport)
 	if err != nil {

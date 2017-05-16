@@ -7,13 +7,7 @@ import (
 	"./levendeDyr_IE"
 	"./klaer_IE"
 )
-/*
-	generell_IE
-	siste13mnd_IE
-	levendeDyr_IE
-	vaapen_IE
-	klaer_IE
-*/
+
 func main() {
 //API-er
 	var urlImportEksport = "http://data.ssb.no/api/v0/dataset/1136.json?lang=no"
