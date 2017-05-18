@@ -77,5 +77,5 @@ func getData() *Weather {
 
 //Funksjonen decode og getData kunne ha blitt bygget sammen til en funksjon for å spare plass, men -
 //- vi valgte å dele de opp slik at de er enklere å jobbe videre på senere.
-// Copyright 2017 Gruppe 12 IS-105. All rights reserved.
+// Copyright 2017 Gruppe 12 IS-105.
 // Kode fra http://www.alexedwards.net/blog/serving-static-sites-with-go, http://stackoverflow.com/questions/26559557/how-do-you-serve-a-static-html-file-using-a-go-web-server og https://golang.org/pkg/text/template/ er delvis gjennbrukt her.
